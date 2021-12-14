@@ -9,7 +9,7 @@ class Complex{
 double Re;
 double Im;
 public:
-Complex(double aRe = 0, double aIm = 0);
+Complex(double aRe, double aIm);
 Complex(const Complex &);
 ~Complex(    );
 
@@ -44,7 +44,7 @@ Complex &operator *= (const double  &);
 
 Complex &operator /= (const  double &);
 
-void Set(double aRe, double aIm = 0);
+void Set(double aRe, double aIm);
 operator double();
 double abs();
 };
