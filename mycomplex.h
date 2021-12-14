@@ -44,7 +44,7 @@ Complex &operator *= (const double  &);
 
 Complex &operator /= (const  double &);
 
-void Set(double aRe, double aIm = 0);
+void Set(double aRe, double aIm);
 operator double();
 double abs();
 };
