@@ -11,7 +11,7 @@ double Im;
 public:
 Complex(double aRe = 0, double aIm = 0);
 Complex(const Complex &);
-~Complex(    );
+~Complex();
 
 friend istream &operator >> (istream &, Complex &) ;
 friend ostream &operator << (ostream &, Complex &);
