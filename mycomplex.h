@@ -56,10 +56,10 @@ Complex &operator += (const double&);
 Complex &operator -= (const Complex&);
 Complex &operator -= (const double&);
 
-Complex &operator *= (const Complex& );
-Complex &operator *= (const double  &);
+Complex &operator *= (const Complex&);
+Complex &operator *= (const double&);
 
-Complex &operator /= (const  double &);
+Complex &operator /= (const  double&);
 
 void Set(double aRe, double aIm);
 operator double();
